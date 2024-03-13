@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.281238,34.030247</coordinates></Point>
+</Placemark>
+
+<Folder>
+    <name>Waterworks</name>
+        <Placemark>
+            <name>Gerontology Fountain</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.290687,34.020293</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>RTH Fountain</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.286021,34.020395</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Village Fountain</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.2850829,34.0252069</coordinates></Point>
+        </Placemark>
+</Folder>
+
+<Folder>
+    <name>Dept Buildings</name>
+        <Placemark>
+        <name>Dornsife School</name>
+            <styleUrl>#z1</styleUrl>    
+            <Point><coordinates> -118.285312, 34.020315</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Marshall School</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates> -118.28573, 34.01909</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Viterbi Engg</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates> -118.28954, 34.02077</coordinates></Point>
+        </Placemark>
+</Folder>
+
+<Folder>
+    <name>Eateries</name>
+        <Placemark>
+            <name>Rock N Reileys</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.28412,34.02448</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Annenberg Cafe</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates> -118.28598, 34.02220</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Starbucks</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates> -118.28217, 34.02114</coordinates></Point>
+        </Placemark>
+</Folder>
+
+<Folder>
+    <name>Libraries</name>
+        <Placemark>
+            <name>Leavey Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.2832101,34.0213864</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Doheny Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.2840047,34.0203658</coordinates></Point>
+        </Placemark>
+        <Placemark>
+            <name>Seaver Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point><coordinates>-118.2888554,34.0196046</coordinates></Point>
+        </Placemark>
+</Folder>
+
+<Placemark>
+    <name>ConvexHullall</name>
+    <Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>-118.28573,34.01909 -118.2888554,34.0196046 -118.290687,34.020293 -118.281238,34.030247 -118.28217,34.02114 -118.28573,34.01909</coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon> 
+</Placemark>
+
+<Placemark>
+    <name>Neighbour1</name>
+    <description>Neighbour1-Village Fountain</description>
+    <Style>
+        <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.281238,34.030247 -118.2850829,34.0252069</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbour2</name>
+    <description>Neighbour2-Rock N Reileys</description>
+    <Style>
+        <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.281238,34.030247 -118.28412,34.02448</coordinates>
+    </LineString>
+</Placemark>
+
+
+<Placemark>
+    <name>Neighbour3</name>
+    <description>Neighbour3-Leavey Library</description>
+    <Style>
+        <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.281238,34.030247 -118.2832101,34.0213864</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbour4</name>
+    <description>Neighbour4-Wingstop</description>
+    <Style>
+        <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.281238,34.030247 -118.28217,34.02114</coordinates>
+    </LineString>
+</Placemark>
+
+
+
+
+
+</Document></kml>
